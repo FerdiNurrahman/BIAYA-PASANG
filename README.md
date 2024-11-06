@@ -4,9 +4,9 @@
 Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai item seperti sakelar, lampu, dan lainnya. Dibuat dengan PHP murni dan menggunakan database MySQL.
 
 ## Struktur Direktori
-- **config.php** - File konfigurasi koneksi database.
-- **index.php** - Antarmuka utama aplikasi untuk pengelolaan item.
-- **migrate.php** - Skrip migrasi database untuk membuat database dan tabel jika belum ada.
+- config.php - File konfigurasi koneksi database.
+- index.php - Antarmuka utama aplikasi untuk pengelolaan item.
+- migrate.php - Skrip migrasi database untuk membuat database dan tabel jika belum ada.
 
 ## Persyaratan
 - PHP 8.2 atau lebih baru
@@ -16,14 +16,14 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
 
 ## Instalasi
 
-1. **Clone Repository**  
+1. Clone Repository  
    Clone repository ini ke dalam folder lokal Anda:
    ```bash
    git clone https://github.com/FerdiNurrahman/BIAYA-PASANG.git
    cd biaya-pasang-biled-scoopy
    ```
 
-2. **Konfigurasi Database**
+2. Konfigurasi Database
    - Buka `config.php` dan sesuaikan parameter database Anda:
      ```php
      $host = 'localhost';
@@ -33,7 +33,7 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
      ```
    - Pastikan parameter di atas sesuai dengan koneksi database lokal Anda.
 
-3. **Migrasi Database**
+3. Migrasi Database
    - Jalankan skrip migrasi untuk membuat database dan tabel jika belum ada:
      ```bash
      php migrate.php
@@ -42,15 +42,15 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
 
 ## Penggunaan
 
-1. **Menjalankan Aplikasi**
+1. Menjalankan Aplikasi
    - Setelah migrasi berhasil, jalankan aplikasi dengan membuka `index.php` di web server Anda (misalnya, `http://localhost/biaya-pasang-biled-scoopy/index.php`).
 
-2. **Fitur Utama**
-   - **Tambah Item**: Masukkan nama item dan harga, lalu klik tombol tambah untuk menambahkan item baru.
-   - **Edit Item**: Klik ikon edit di sebelah item yang ingin diubah, lalu simpan perubahan.
-   - **Hapus Item**: Klik ikon hapus di sebelah item yang ingin dihapus, dan konfirmasi aksi.
+2. Fitur Utama
+   - Tambah Item: Masukkan nama item dan harga, lalu klik tombol tambah untuk menambahkan item baru.
+   - Edit Item: Klik ikon edit di sebelah item yang ingin diubah, lalu simpan perubahan.
+   - Hapus Item: Klik ikon hapus di sebelah item yang ingin dihapus, dan konfirmasi aksi.
 
-3. **Total Biaya**: Total dari semua harga item akan muncul di bawah daftar item.
+3. Total Biaya: Total dari semua harga item akan muncul di bawah daftar item.
 
 ## Catatan Tambahan
 - Jika Anda melakukan perubahan pada struktur tabel di masa mendatang, tambahkan query migrasi tambahan di `migrate.php`.
