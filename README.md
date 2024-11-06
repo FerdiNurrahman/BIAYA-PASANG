@@ -45,7 +45,7 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
 ## Penggunaan
 
 1. **Menjalankan Aplikasi**
-   - Setelah migrasi berhasil, jalankan aplikasi dengan membuka `index.php` di web server Anda (misalnya, `http://localhost/biaya-pasang-biled-scoopy/index.php`).
+   - Setelah migrasi berhasil, jalankan aplikasi dengan membuka `index.php` di web server Anda (misalnya, `http://localhost/biaya-pasang`).
 
 2. **Fitur Utama**
    - **Tambah Item**: Masukkan nama item dan harga, lalu klik tombol tambah untuk menambahkan item baru.
