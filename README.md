@@ -19,7 +19,7 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
 1. **Clone Repository**  
    Clone repository ini ke dalam folder lokal Anda:
    ```bash
-   git clone https://github.com/username/biaya-pasang-biled-scoopy.git
+   git clone https://github.com/FerdiNurrahman/BIAYA-PASANG.git
    cd biaya-pasang-biled-scoopy
    ```
 
@@ -56,8 +56,3 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
 - Jika Anda melakukan perubahan pada struktur tabel di masa mendatang, tambahkan query migrasi tambahan di `migrate.php`.
 - Untuk notifikasi dan modals, aplikasi ini menggunakan SweetAlert2 dan Bootstrap 5. Pastikan koneksi internet untuk mengunduh pustaka ini secara otomatis.
 
-## Lisensi
-Aplikasi ini dirilis di bawah lisensi [MIT](LICENSE).
-```
-
-**Catatan**: Pastikan mengganti `username` pada URL clone GitHub dengan nama pengguna atau organisasi Anda. Juga, sesuaikan link lisensi jika proyek memiliki lisensi yang berbeda dari MIT.
