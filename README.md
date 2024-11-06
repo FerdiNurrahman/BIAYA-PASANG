@@ -18,9 +18,9 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
 
 1. Clone Repository  
    Clone repository ini ke dalam folder lokal Anda:
-   ```bash
+   ```php
    git clone https://github.com/FerdiNurrahman/BIAYA-PASANG.git
-   cd biaya-pasang-biled-scoopy
+   cd BIAYA-PASANG
    ```
 
 2. Konfigurasi Database
@@ -35,7 +35,7 @@ Aplikasi ini adalah sistem sederhana untuk mengelola biaya pemasangan berbagai i
 
 3. Migrasi Database
    - Jalankan skrip migrasi untuk membuat database dan tabel jika belum ada:
-     ```bash
+     ```php
      php migrate.php
      ```
    - Skrip `migrate.php` akan membuat database `biaya_pasang` dan tabel `biaya_items`.
